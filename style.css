@@ -63,6 +63,7 @@ footer {
     background-color: #aaa;
 }
 
+/* レスポンシブ対応 */
 @media screen and (max-width: 768px) {
     main {
         width: 100%;
