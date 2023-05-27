@@ -1,16 +1,19 @@
 @charset "utf-8";
 
+/******************** リセットCSS ********************/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/**********************　ヘッダー ********************/
 header {
     height: 50px;
     background-color: #ff9a4b;
 }
 
+/****************** メイン ***********************/
 main {
     width: 960px;
     margin: 50px auto;
@@ -29,6 +32,7 @@ main {
     margin-right: 0;
 }
 
+/* ボックス１ */
 .step-img1 {
     height: 150px;
     background-image: url(img/flow01.png);
@@ -36,6 +40,7 @@ main {
     background-size: cover;
 }
 
+/* ボックス２ */
 .step-img2 {
     height: 150px;
     background-image: url(img/flow02.png);
@@ -43,6 +48,7 @@ main {
     background-size: cover;
 }
 
+/* ボックス３ */
 .step-img3 {
     height: 150px;
     background-image: url(img/flow03.png);
@@ -62,12 +68,13 @@ main {
     margin: 15px 0 5px;
 }
 
+/******************** フッター *********************/
 footer {
     height: 50px;
     background-color: #aaa;
 }
 
-/* レスポンシブ対応 */
+/******************* レスポンシブ対応 *********************/
 @media screen and (max-width: 768px) {
     main {
         width: 100%;
